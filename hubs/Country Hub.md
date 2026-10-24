@@ -21,3 +21,8 @@ related: []
 - [[Overview]]
 - [[Standard Status]]
 - [[Referenced Standards]]
+
+## 한국과의 비교
+
+- [[KSGA Standards]]
+- [[KSGA Comparison]]

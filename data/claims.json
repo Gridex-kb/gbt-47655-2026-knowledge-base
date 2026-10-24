@@ -2,15 +2,165 @@
   "version": 1,
   "verified_at": "2026-10-24",
   "claims": [
-    {"claim_id":"CLM-STATUS-001","claim":"GB/T 47655-2026은 2026-07-02 발행되었고 2027-02-01 시행 예정이다.","source_id":"SRC-CN-GBT47655-META","source_locator":"official detail page; PDF cover","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-SCOPE-001","claim":"직류송전, STATCOM, ESS, 신재생 설비와 그 조합이 적용대상이다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§1","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-RESPONSE-001","claim":"관성응답과 동적 전압응답은 각각 5 ms 이내 자연응답을 요구한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.2.1, §4.3.1","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-INERTIA-001","claim":"관성시간상수 Tj 범위는 0.1~16 s이며 구체값은 발주자 요구로 정한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.2.2","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-FREQ-001","claim":"45~55 Hz 연속운전과 ±2 Hz/s 이내 주파수 변화율 내량을 요구한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.1.2","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-PHASE-001","claim":"위상점프는 5 ms 이내 자연응답하며 ±60° 이내에서 연속운전해야 한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.1.4","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-OSCR-001","claim":"시험은 네 OSCR 구간에서 각각 수행한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§5.1.3","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-DAMPING-001","claim":"광대역 임피던스 스캔은 1~2500 Hz를 대상으로 한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§5.10.2","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-RECOVERY-001","claim":"고장 제거 후 유·무효전력 복구율은 3.0 p.u./s 이상이다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.6","evidence_level":"Confirmed"},
-    {"claim_id":"CLM-HIL-001","claim":"시뮬레이션시험은 실시간 플랫폼과 현장과 동일한 제어·보호 시스템을 사용한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§5.1.1","evidence_level":"Confirmed"}
+    {
+      "claim_id": "CLM-STATUS-001",
+      "claim": "GB/T 47655-2026은 2026-07-02 발행되었고 2027-02-01 시행 예정이다.",
+      "source_id": "SRC-CN-GBT47655-META",
+      "source_locator": "official detail page; PDF cover",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-SCOPE-001",
+      "claim": "직류송전, STATCOM, ESS, 신재생 설비와 그 조합이 적용대상이다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§1",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-RESPONSE-001",
+      "claim": "관성응답과 동적 전압응답은 각각 5 ms 이내 자연응답을 요구한다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§4.2.1, §4.3.1",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-INERTIA-001",
+      "claim": "관성시간상수 Tj 범위는 0.1~16 s이며 구체값은 발주자 요구로 정한다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§4.2.2",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-FREQ-001",
+      "claim": "45~55 Hz 연속운전과 ±2 Hz/s 이내 주파수 변화율 내량을 요구한다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§4.1.2",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-PHASE-001",
+      "claim": "위상점프는 5 ms 이내 자연응답하며 ±60° 이내에서 연속운전해야 한다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§4.1.4",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-OSCR-001",
+      "claim": "시험은 네 OSCR 구간에서 각각 수행한다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§5.1.3",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-DAMPING-001",
+      "claim": "광대역 임피던스 스캔은 1~2500 Hz를 대상으로 한다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§5.10.2",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-RECOVERY-001",
+      "claim": "고장 제거 후 유·무효전력 복구율은 3.0 p.u./s 이상이다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§4.6",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-HIL-001",
+      "claim": "시뮬레이션시험은 실시간 플랫폼과 현장과 동일한 제어·보호 시스템을 사용한다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§5.1.1",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-STATUS-001",
+      "claim": "KSGA 제1부 Ed2.0과 제2부 Ed1.0 첨부본은 2026-10-19~2026-11-17 공개회람안이다.",
+      "source_id": "SRC-KR-KSGA-025-18-1-DRAFT-20261019",
+      "source_locator": "공개회람 공지 작성일·회람기간",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-SCOPE-001",
+      "claim": "KSGA 제1부는 송배전계통 GFM 인버터, 제2부는 시험소 제어성능 형식시험을 다룬다.",
+      "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
+      "source_locator": "§1 (PDF p.7); 제1부 §1 (PDF p.7)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-RESPONSE-001",
+      "claim": "KSGA 제1부 관성응답 요구는 반응 5 ms 이내, 목표값 90% 도달 50 ms 이내, 정정 후 오차 ±2.5% 이내이다.",
+      "source_id": "SRC-KR-KSGA-025-18-1-DRAFT-20261019",
+      "source_locator": "§3.1.15~§3.1.16, §5.3.3 (PDF pp.9,14; 인쇄 pp.3,8)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-REACTION-TEST-001",
+      "claim": "제2부 주파수·전압·소위상 급변 시험의 응답 개시 기준은 기본 1주기, 관성 램프 시험은 기본 2주기이다.",
+      "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
+      "source_locator": "§6.1.5 c), §6.2.5 c), §6.3.5 c), §6.5.5 a) (PDF pp.17~19,22)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-ROCOF-001",
+      "claim": "관성시험 프로파일 P1/P2/P3의 RoCoF는 1/2/4 Hz/s이며 기본 주파수는 60 Hz이다.",
+      "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
+      "source_locator": "§6.5.3 표3 (PDF p.21; 인쇄 p.15)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-SCR-001",
+      "claim": "KSGA SCR은 시험정격용량 기준이며 기본 +50% 운전점에서 10→5→2→1.5→1.2의 약계통 시험을 수행한다.",
+      "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
+      "source_locator": "§3.1.6, §4.1.3, §6.13.2~§6.13.5 (PDF pp.8,10,31~32)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-SCALING-001",
+      "claim": "KSGA 제2부는 축소 시험정격용량 설정과 p.u. 재정규화를 허용하며 전체 정격의 20% 이상을 권장한다.",
+      "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
+      "source_locator": "§4.1.1~§4.1.4 (PDF pp.10~11)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-FAULT-001",
+      "claim": "제1부는 140 ms 과전류와 송전연계 GFM의 순시 2.0 p.u.를 제시하고 제2부는 정상분 기본파 RMS 선언값을 사용한다.",
+      "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
+      "source_locator": "§6.6.2 b), §6.6.4~§6.6.5 (PDF pp.22~24); 제1부 §5.3.4 (PDF p.14)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-MODE-001",
+      "claim": "KSGA GFL-GFM 전환 기능 제공 시 과도시간 20 ms와 전압·전류 1.1 p.u. 이내를 확인한다.",
+      "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
+      "source_locator": "§5 표2 비고4, §6.8.4~§6.8.5 (PDF pp.16,26)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-KSGA-DAMPING-001",
+      "claim": "제2부 전력진동 감쇠시험은 선택 항목이며 기본 부호 판정점은 0.3/0.5/1 Hz이다.",
+      "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
+      "source_locator": "§5 표2, §6.7 표5와 §6.7.5 (PDF pp.16,24~25)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    }
   ]
 }

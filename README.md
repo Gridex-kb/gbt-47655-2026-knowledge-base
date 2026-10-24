@@ -19,8 +19,10 @@
 - 시뮬레이션·현장 시험 체계
 - 관통운전, 진동감쇠, 주파수조정, 블랙스타트 시험
 - 도입·조달·검증 체크리스트
+- [한국스마트그리드협회(KSGA) GFM 표준과의 차이](content/KSGA%20Comparison.md)
+- [KSGA 제1부·제2부 공개회람 상태](content/KSGA%20Standards.md)
 
-공식 PDF 27쪽과 중국 국가표준 공식 메타데이터·계획·공고를 2026-10-24에 확인했습니다. 고위험 주장은 `data/claims.json`, 출처는 `data/source-registry.yaml`에서 추적합니다.
+중국 공식 PDF 27쪽과 공식 메타데이터·계획·공고, KSGA 제1부 Ed2.0 공개회람본 19쪽과 제2부 Ed1.0 공개회람본 37쪽을 2026-10-24에 확인했습니다. KSGA 판본은 2026-11-17까지 의견수렴 중인 초안으로 구분합니다. 고위험 주장은 `data/claims.json`, 출처는 `data/source-registry.yaml`에서 추적합니다.
 
 ## Start
 

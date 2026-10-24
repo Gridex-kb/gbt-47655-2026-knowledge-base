@@ -35,6 +35,8 @@ related: [GBT47655-OVERVIEW, GBT47655-STATUS]
 - [[Performance Requirements|성능 요구사항 지도]]
 - [[Test Framework|시험 체계와 공통조건]]
 - [[Implementation Checklist|도입·조달·검증 체크리스트]]
+- [[KSGA Comparison|한국스마트그리드협회 표준과의 차이]]
+- [[KSGA Standards|KSGA 최신 공개회람본과 상태]]
 
 ## Research workflow
 
