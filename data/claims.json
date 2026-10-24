@@ -52,9 +52,9 @@
     },
     {
       "claim_id": "CLM-OSCR-001",
-      "claim": "시험은 네 OSCR 구간에서 각각 수행한다.",
+      "claim": "시험은 1<OSCR<1.5, 1.5≤OSCR<2, 2≤OSCR<3, OSCR≥3의 네 구간에서 각각 수행한다.",
       "source_id": "SRC-CN-GBT47655-PDF",
-      "source_locator": "§5.1.3",
+      "source_locator": "§5.1.3 a)~d), 인쇄 p.6 / PDF p.12",
       "evidence_level": "Confirmed",
       "verified_at": "2026-10-24"
     },
@@ -159,6 +159,14 @@
       "claim": "제2부 전력진동 감쇠시험은 선택 항목이며 기본 부호 판정점은 0.3/0.5/1 Hz이다.",
       "source_id": "SRC-KR-KSGA-025-18-2-DRAFT-20261019",
       "source_locator": "§5 표2, §6.7 표5와 §6.7.5 (PDF pp.16,24~25)",
+      "evidence_level": "Confirmed",
+      "verified_at": "2026-10-24"
+    },
+    {
+      "claim_id": "CLM-OSCR-MAX-001",
+      "claim": "시험 최대 OSCR은 실제 접속점의 교류계통 강도에 따라 공급자와 사용자가 협의하여 정한다.",
+      "source_id": "SRC-CN-GBT47655-PDF",
+      "source_locator": "§5.1.3 마지막 문장, 인쇄 p.6 / PDF p.12",
       "evidence_level": "Confirmed",
       "verified_at": "2026-10-24"
     }

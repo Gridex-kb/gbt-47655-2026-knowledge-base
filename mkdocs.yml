@@ -1,0 +1,89 @@
+site_name: GB/T 47655 지식창고
+site_description: GB/T 47655-2026 그리드포밍 성능 요구사항과 시험방법을 읽는 한국어 지식창고
+site_url: https://gridex-kb.github.io/gbt-47655-2026-knowledge-base/
+repo_url: https://github.com/Gridex-kb/gbt-47655-2026-knowledge-base
+repo_name: Gridex-kb
+docs_dir: .site-docs
+site_dir: .site-dist
+strict: true
+use_directory_urls: true
+theme:
+  name: material
+  language: ko
+  font: false
+  icon:
+    logo: material/transmission-tower
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 어두운 화면으로 보기
+    - scheme: slate
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 밝은 화면으로 보기
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+plugins:
+  - search:
+      lang: [ko, en]
+      separator: '[\s\-]+'
+      pipeline: [trimmer]
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+extra_css:
+  - assets/stylesheets/extra.css
+extra:
+  generator: false
+copyright: GRIDEX · 공식 자료에 근거한 한국어 지식창고
+nav:
+  - 시작: index.md
+  - 표준 이해:
+      - 개요: content/overview.md
+      - 표준 상태와 일정: content/standard-status.md
+      - 적용 범위: content/scope-and-applicability.md
+      - 핵심 용어: content/grid-forming-definitions.md
+      - 용어집: content/glossary.md
+      - 시행 일정: content/timeline.md
+  - 성능 요구사항:
+      - 요구사항 지도: content/performance-requirements.md
+      - 계통접속과 관통운전: content/grid-adaptability.md
+      - OSCR 네 구간: content/oscr-test-ranges.md
+      - 관성과 전압응답: content/inertia-and-voltage-response.md
+      - 주파수조정과 블랙스타트: content/frequency-control-and-black-start.md
+  - 시험과 적용:
+      - 시험 체계: content/test-framework.md
+      - 전압 관통운전 시험: content/ride-through-tests.md
+      - 진동감쇠와 동특성: content/oscillation-and-dynamic-tests.md
+      - 도입과 검증 체크리스트: content/implementation-checklist.md
+      - 규범적 인용표준: content/referenced-standards.md
+  - KSGA 비교:
+      - 한중 표준 비교: content/ksga-comparison.md
+      - KSGA 회람본과 상태: content/ksga-standards.md
+  - 출처와 탐색:
+      - 공식 출처: sources.md
+      - 핵심 주장과 근거: claims.md
+      - 주제별 문서: hubs/topic-hub.md
+      - 기관과 역할: hubs/organization-hub.md
+      - 국가별 자료: hubs/country-hub.md
+      - 일정별 자료: hubs/timeline-hub.md

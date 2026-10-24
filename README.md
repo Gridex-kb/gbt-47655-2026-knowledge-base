@@ -8,7 +8,7 @@
 - Type: **Technical Standard**
 - Primary language: **ko**
 - Country scope: **CN**
-- Public site engine: **none**
+- Public site engine: **MkDocs Material / GitHub Pages**
 - GCP maturity level: **0**
 
 ## 포함 내용
@@ -27,6 +27,19 @@
 ## Start
 
 Obsidian에서 이 저장소를 Vault로 열고 [`HOME.md`](HOME.md)에서 시작합니다.
+
+웹에서는 [GB/T 47655 지식창고](https://gridex-kb.github.io/gbt-47655-2026-knowledge-base/)에서 한국어 검색·목차와 함께 읽을 수 있습니다. [OSCR 네 구간 설명](content/OSCR%20Test%20Ranges.md)도 포함합니다.
+
+## 사이트 운영
+
+원본 Markdown과 출처 데이터를 수정하여 `main`에 반영하면 GitHub Actions가 검증 후 사이트를 배포합니다. 빌드는 공개 저장소의 지식 문서만 사용합니다.
+
+```text
+python -m pip install -r requirements-site.txt
+python scripts/prepare_site.py
+python -m mkdocs build --strict
+python scripts/validate_site.py
+```
 
 ## Knowledge rules
 

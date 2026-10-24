@@ -7,7 +7,7 @@
   "countries": [
     "CN"
   ],
-  "site": "none",
+  "site": "mkdocs",
   "gcp_level": 0,
   "public": true,
   "created": "2026-10-24"

@@ -6,7 +6,9 @@ kb_type: "Technical Standard"
 language: "ko"
 countries:
   - "CN"
-site: "none"
+site: "mkdocs"
+site_url: "https://gridex-kb.github.io/gbt-47655-2026-knowledge-base/"
+hosting: github-pages
 gcp_level: 0
 public: true
 created: 2026-10-24

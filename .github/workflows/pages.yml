@@ -1,0 +1,60 @@
+name: Deploy knowledge site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-site.txt
+      - name: Install documentation dependencies
+        run: pip install -r requirements-site.txt
+      - name: Validate canonical knowledge
+        run: |
+          python scripts/validate_kb.py .
+          python scripts/validate_provenance.py .
+      - name: Prepare and build site
+        env:
+          NO_MKDOCS_2_WARNING: '1'
+        run: |
+          python scripts/prepare_site.py
+          python -m mkdocs build --strict
+          python scripts/validate_site.py
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .site-dist
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

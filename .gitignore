@@ -9,3 +9,6 @@
 .env
 .env.*
 __pycache__/
+/.site-docs/
+/.site-dist/
+/.site-build.json
