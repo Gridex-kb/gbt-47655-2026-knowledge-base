@@ -1,5 +1,8 @@
 # GB/T 47655-2026 구성망 성능 요구사항 지식창고
 
+> 소속: [Gridex-kb](https://github.com/Gridex-kb) · 저장소: [Gridex-kb/gbt-47655-2026-knowledge-base](https://github.com/Gridex-kb/gbt-47655-2026-knowledge-base) · 공개
+
+
 중국 권고성 국가표준 GB/T 47655-2026을 조항별로 설명하는 **검증 가능하고 Obsidian-compatible한 한국어 지식창고**입니다. 표준 원문은 저작권·재배포 조건에 따라 포함하지 않으며 공식 링크와 근거 위치만 제공합니다.
 
 ## Project profile
