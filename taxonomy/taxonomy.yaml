@@ -1,0 +1,42 @@
+version: 1
+domain:
+  - "GB/T 47655-2026 그리드포밍 성능 요구사항 및 시험방법"
+subdomains: []
+types:
+  - overview
+  - concept
+  - technology
+  - policy
+  - regulation
+  - standard
+  - organization
+  - company
+  - project
+  - country
+  - research
+  - dataset
+  - hub
+  - glossary
+status: [draft, active, superseded, archived]
+evidence_level: [Confirmed, Supported, Reported, Inferred, Unverified]
+source_type:
+  - law
+  - regulation
+  - standard
+  - official-report
+  - official-web
+  - dataset
+  - paper
+  - technical-report
+  - company-document
+  - news
+relationships:
+  - related_to
+  - issued_by
+  - applies_to
+  - implements
+  - references
+  - amends
+  - supersedes
+  - superseded_by
+  - derived_from

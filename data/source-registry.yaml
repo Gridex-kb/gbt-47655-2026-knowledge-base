@@ -1,0 +1,92 @@
+version: 1
+sources:
+  - id: SRC-CN-GBT47655-PDF
+    title: 电力电子装备和系统的构网性能要求及试验方法
+    organization: 国家市场监督管理总局、国家标准化管理委员会
+    country: CN
+    source_type: national-standard
+    url: https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2A02604DBDFAFC90FAD84E91E96005B5
+    publication_date: 2026-07-02
+    effective_date: 2027-02-01
+    version: GB/T 47655-2026
+    status: published-pending-effective
+    official: true
+    evidence_level: Confirmed
+    collection_mode: Manual
+    last_verified: 2026-10-24
+    source_locator: full text, clauses 1-5 and annexes A-C
+    accessibility: public download; electronic text for personal study and research
+    redistribution: link-only; do not redistribute full text
+    verification_scope: complete 27-page PDF visually sampled and text extracted
+  - id: SRC-CN-GBT47655-META
+    title: 国家标准 GB/T 47655-2026
+    organization: 国家市场监督管理总局国家标准技术审评中心
+    country: CN
+    source_type: official-metadata
+    url: https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2A02604DBDFAFC90FAD84E91E96005B5
+    publication_date: 2026-07-02
+    effective_date: 2027-02-01
+    version: current web record
+    status: active
+    official: true
+    evidence_level: Confirmed
+    collection_mode: Watch
+    last_verified: 2026-10-24
+    source_locator: standard detail page
+    accessibility: public HTML
+    redistribution: metadata and link
+    verification_scope: identifier, title, status, classifications, dates, issuer
+  - id: SRC-CN-GBT47655-PLAN
+    title: 国家标准计划 20251774-T-604
+    organization: 国家标准化管理委员会
+    country: CN
+    source_type: official-project-record
+    url: https://std.samr.gov.cn/gb/search/gbDetailed?id=36E3C042690E5ED2E06397BE0A0A536B
+    publication_date: 2025-06-03
+    effective_date: null
+    version: 20251774-T-604
+    status: published
+    official: true
+    evidence_level: Confirmed
+    collection_mode: Manual
+    last_verified: 2026-10-24
+    source_locator: project detail page
+    accessibility: public HTML
+    redistribution: metadata and link
+    verification_scope: project number, project type, lead and executing committees
+  - id: SRC-CN-ANNOUNCEMENT-2026-28
+    title: 关于公开2026年第28号中国国家标准公告中国家标准全文的通知
+    organization: 国家市场监督管理总局、国家标准化管理委员会
+    country: CN
+    source_type: official-announcement
+    url: https://openstd.samr.gov.cn/bzgk/std/nd?no=2841
+    publication_date: 2026-07-22
+    effective_date: null
+    version: announcement 2026-28
+    status: final
+    official: true
+    evidence_level: Confirmed
+    collection_mode: Manual
+    last_verified: 2026-10-24
+    source_locator: row for GB/T 47655-2026
+    accessibility: public HTML
+    redistribution: metadata and link
+    verification_scope: inclusion in public full-text notice and dates
+  - id: SRC-CN-GBT47655-REVIEW
+    title: GB/T 47655-2026 官方标准审阅页
+    organization: 国家市场监督管理总局国家标准技术审评中心
+    country: CN
+    source_type: official-catalog
+    url: https://openstd.samr.gov.cn/bzgk/gb/review?hcno=2A02604DBDFAFC90FAD84E91E96005B5
+    publication_date: null
+    effective_date: null
+    version: current web record
+    status: active
+    official: true
+    evidence_level: Confirmed
+    collection_mode: Manual
+    last_verified: 2026-10-24
+    source_locator: official review page
+    accessibility: public HTML
+    redistribution: metadata and link
+    verification_scope: title, catalog and full-text link relationship

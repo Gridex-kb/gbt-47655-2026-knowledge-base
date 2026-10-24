@@ -1,0 +1,16 @@
+version: 1
+topic: "GB/T 47655-2026 그리드포밍 성능 요구사항 및 시험방법"
+name: "GB/T 47655-2026 구성망 성능 요구사항 지식창고"
+slug: "gbt-47655-2026"
+kb_type: "Technical Standard"
+language: "ko"
+countries:
+  - "CN"
+site: "none"
+gcp_level: 0
+public: true
+created: 2026-10-24
+public_repository: "gbt-47655-2026-knowledge-base"
+development_repository: "gbt-47655-2026-knowledge-base-dev"
+development_visibility: private
+source_policy: link-only

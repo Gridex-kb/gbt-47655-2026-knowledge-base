@@ -1,0 +1,32 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$title: Knowledge Base Document Metadata
+type: object
+required: [title, type, status, evidence_level]
+properties:
+  id: {type: [string, 'null']}
+  title: {type: string}
+  type: {type: string}
+  status:
+    type: string
+    enum: [draft, active, superseded, archived]
+  evidence_level:
+    type: string
+    enum: [Confirmed, Supported, Reported, Inferred, Unverified]
+  source_ids:
+    type: array
+    items: {type: string}
+  published: {type: [string, 'null']}
+  effective: {type: [string, 'null']}
+  valid_from: {type: [string, 'null']}
+  valid_to: {type: [string, 'null']}
+  last_verified: {type: [string, 'null']}
+  aliases:
+    type: array
+    items: {type: string}
+  tags:
+    type: array
+    items: {type: string}
+  related:
+    type: array
+    items: {type: string}
+additionalProperties: true

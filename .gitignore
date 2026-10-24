@@ -1,0 +1,11 @@
+
+# Original documents and development records belong in the sibling -dev repository.
+/sources/
+/project/
+/gcp/
+/data/source-archive.yaml
+/data/source-candidates.json
+*-dev/
+.env
+.env.*
+__pycache__/

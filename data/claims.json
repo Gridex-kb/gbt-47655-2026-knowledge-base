@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "verified_at": "2026-10-24",
+  "claims": [
+    {"claim_id":"CLM-STATUS-001","claim":"GB/T 47655-2026은 2026-07-02 발행되었고 2027-02-01 시행 예정이다.","source_id":"SRC-CN-GBT47655-META","source_locator":"official detail page; PDF cover","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-SCOPE-001","claim":"직류송전, STATCOM, ESS, 신재생 설비와 그 조합이 적용대상이다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§1","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-RESPONSE-001","claim":"관성응답과 동적 전압응답은 각각 5 ms 이내 자연응답을 요구한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.2.1, §4.3.1","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-INERTIA-001","claim":"관성시간상수 Tj 범위는 0.1~16 s이며 구체값은 발주자 요구로 정한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.2.2","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-FREQ-001","claim":"45~55 Hz 연속운전과 ±2 Hz/s 이내 주파수 변화율 내량을 요구한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.1.2","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-PHASE-001","claim":"위상점프는 5 ms 이내 자연응답하며 ±60° 이내에서 연속운전해야 한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.1.4","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-OSCR-001","claim":"시험은 네 OSCR 구간에서 각각 수행한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§5.1.3","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-DAMPING-001","claim":"광대역 임피던스 스캔은 1~2500 Hz를 대상으로 한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§5.10.2","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-RECOVERY-001","claim":"고장 제거 후 유·무효전력 복구율은 3.0 p.u./s 이상이다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§4.6","evidence_level":"Confirmed"},
+    {"claim_id":"CLM-HIL-001","claim":"시뮬레이션시험은 실시간 플랫폼과 현장과 동일한 제어·보호 시스템을 사용한다.","source_id":"SRC-CN-GBT47655-PDF","source_locator":"§5.1.1","evidence_level":"Confirmed"}
+  ]
+}
